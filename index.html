@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="queries.css">
+    <title>Rock-Paper-Scissors</title>
+</head>
+<body>
+
+    <div class="main-container">
+        <h1 id="game-title">Rock - Paper - Scissors</h1>
+
+        <section id="scoreDisplay">
+            <p id="scoreHeading">scoreboard</p>
+            <p>😎</p>
+            <p id="playerScore">0</p>
+
+            <p>🤖</p>
+            <p id="computerScore">0</p>
+            
+        </section>
+
+        <button id="refresh_button">
+            <svg class="refresh_icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-counterclockwise" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 3a5 5 0 1 1-4.546 2.914.5.5 0 0 0-.908-.417A6 6 0 1 0 8 2z"/>
+            <path d="M8 4.466V.534a.25.25 0 0 0-.41-.192L5.23 2.308a.25.25 0 0 0 0 .384l2.36 1.966A.25.25 0 0 0 8 4.466"/>
+            </svg>
+        </button>
+
+        <div id="choices">
+            <button onclick="playGame(`rock`)" class="choices-button">👊🏽</button>
+            <button onclick="playGame(`paper`)" class="choices-button">✋🏽</button>
+            <button onclick="playGame(`scissors`)" class="choices-button">✌🏽</button>
+        </div>
+
+        <div id="playerDisplay">PLAYER: </div>
+        <div id="computerDisplay">COMPUTER: </div>
+        <div id="resultDisplay">IT IS A TIE!</div>
+
+        
+
+    </div>
+        
+        
+        
+
+
+    <script src="index.js"></script>
+</body>
+</html>
