@@ -55,7 +55,11 @@
 
     #scoreDisplay{
         width: 30%;
+        top: 1rem;
     }
 
-    
-}
+    #game-title{
+        margin-top: 5rem; 
+        
+    }
+ }
