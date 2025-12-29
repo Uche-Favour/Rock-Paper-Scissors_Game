@@ -128,9 +128,11 @@ body{
 #game-title{
     margin-top: 1rem;
     font-family: var(--title-font-family);
-    font-weight: 400;
+    font-weight: var(--font-weight-normal);
     line-height: var(--line-height-normal);
     text-decoration: underline wavy;
+    text-align: center;
+    font-size: var(--text-h1);
     
 }
 
