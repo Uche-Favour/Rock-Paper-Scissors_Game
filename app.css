@@ -235,13 +235,14 @@ p{
     position: absolute;
     z-index: 2;
     left: 3rem;
-    top: 1rem;
-    margin-top: 1rem;
+    top: 2rem;
+    margin-top: 2rem;
     border: 2px solid ;
     border-radius: 8px;
     padding: 0.7rem;
     box-shadow: 0 0 20px var(--amethyst);
     font-size: var(--text-base);
+    
 
  }
 #scoreHeading{
