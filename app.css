@@ -236,6 +236,7 @@ p{
     z-index: 2;
     left: 3rem;
     top: 1rem;
+    margin-top: 1rem;
     border: 2px solid ;
     border-radius: 8px;
     padding: 0.7rem;

@@ -48,5 +48,9 @@
         /* 6px / 16px = 37.5% */
     }
 
+    #choices{
+        flex-direction: column;
+    }
+
     
 }
