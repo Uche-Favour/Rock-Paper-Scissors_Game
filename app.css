@@ -129,10 +129,11 @@ body{
     margin-top: 1rem;
     font-family: var(--title-font-family);
     font-weight: var(--font-weight-normal);
-    line-height: var(--line-height-normal);
+    line-height: var(--line-height-tight);
     text-decoration: underline wavy;
     text-align: center;
     font-size: var(--text-h1);
+    letter-spacing: var(--letter-spacing-tight);
     
 }
 
@@ -243,13 +244,15 @@ p{
     border-radius: 8px;
     padding: 0.7rem;
     box-shadow: 0 0 20px var(--amethyst);
-    font-size: var(--text-base);
+    font-size: var(--text-paragraph);
 
  }
 #scoreHeading{
     grid-column: 1/3;
     text-decoration: underline;
     text-align: center;
+    font-size: var(--text-paragraph);
+    line-height: var(--line-height-tight);
 }
 
 #playerScore, #computerScore{
